@@ -1,0 +1,27 @@
+{
+  "name": "@synergenius/flowweaver-pack-inngest",
+  "version": "0.1.0",
+  "description": "Inngest durable functions export target for Flow Weaver",
+  "keywords": ["flowweaver-marketplace-pack", "flow-weaver", "inngest", "durable", "event-driven"],
+  "flowWeaver": {
+    "type": "marketplace-pack",
+    "engineVersion": ">=0.14.0",
+    "categories": ["deployment", "serverless"]
+  },
+  "peerDependencies": {
+    "@synergenius/flow-weaver": ">=0.14.0"
+  },
+  "main": "./dist/target.js",
+  "types": "./dist/target.d.ts",
+  "type": "module",
+  "files": ["dist", "flowweaver.manifest.json", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@synergenius/flow-weaver": "^0.14.2"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

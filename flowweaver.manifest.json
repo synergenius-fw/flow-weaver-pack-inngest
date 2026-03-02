@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "name": "@synergenius/flowweaver-pack-inngest",
+  "version": "0.1.0",
+  "nodeTypes": [],
+  "workflows": [],
+  "patterns": [],
+  "exportTargets": [{
+    "name": "inngest",
+    "description": "Inngest durable event-driven functions",
+    "file": "dist/target.js"
+  }]
+}
