@@ -1,7 +1,7 @@
 {
   "manifestVersion": 2,
   "name": "@synergenius/flowweaver-pack-inngest",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "nodeTypes": [],
   "workflows": [],
   "patterns": [],
